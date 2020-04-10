@@ -1,5 +1,5 @@
 body {
-    animation: transitionIn 0.75s;
+    animation: transitionIn 1.2s;
 }
 
 @keyframes transitionIn {
@@ -12,4 +12,8 @@ body {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+body.index {
+    animation: none;
 }
