@@ -47,6 +47,11 @@
 			speed: 1000,
 			offset: function() { return $header.height() + 28; }
 		});
+	
+		$('.scrollySpecialOffers').scrolly({
+			speed: 1000,
+			offset: function() { return $header.height() + 50; }
+		});
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
