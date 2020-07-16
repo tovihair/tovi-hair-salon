@@ -3433,3 +3433,7 @@ input, select, textarea {
 .testimonial img {
 	border-radius: 50%;
 }	
+
+.g-recaptcha {
+	padding-bottom: 20px;
+}
